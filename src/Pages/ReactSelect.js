@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import './React-Select.scss';
+import './ReactSelect.scss';
 import Select from 'react-select'
 import {Link} from 'react-router-dom';
 import DatePicker from "react-datepicker";
