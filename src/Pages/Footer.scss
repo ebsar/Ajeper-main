@@ -1,11 +1,8 @@
- *{
-    border: 1px solid black;
- }.Footer-first-container{
+.Footer-first-container{
     background-color: #F2F7FF;
     display:flex;
     @media (max-width: 800px) {
         width: 100%;
-        border: 1px solid black;
             display: flex;
             flex-direction: column;
     }
@@ -63,7 +60,7 @@
     }
     @media (max-width: 800px) {
         display: flex;
-        width: 100% !important;
+        width: 100% ;
         align-items: center;
         justify-content: center;
 }
