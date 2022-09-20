@@ -8,6 +8,7 @@
     }
 }.Leaving-Left-Side{
     padding: 5%;
+    padding-bottom: 12%;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -25,6 +26,7 @@
     display: flex;
     width: 100%;
     align-items: center;
+    gap: 20px;
     @media (max-width:800px) {
         display: flex;
     width: 300px;
@@ -37,6 +39,20 @@
         padding: max(1rem, 1.5vw);
         border-radius: max(0.5rem, 1vw);
         font-size: max(18px, 1.5vw);
+    }
+}.right-side{
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    .violet-bg{
+        position: absolute;
+        left: 40%;
+    }.car-img{
+        position: absolute;
+
     }
 }
 

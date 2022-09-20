@@ -38,28 +38,29 @@ function Leaving() {
   return (
     <div className='Leaving-Container'>
       <div className='Leaving-Left-Side'>
-      <small style={{ fontFamily: 'poppins', fontSize: 'small' }} >WHY SHOULD I CARPOOL?</small>
-          <span style={{ fontFamily: 'poppins', fontSize: 'xx-Large', fontWeight: 'bolder' }} > AjePer Values </span>
+      <small style={{ fontFamily: 'poppins', fontSize: 'small' }} data-aos='zoom-in' >WHY SHOULD I CARPOOL?</small>
+          <span style={{ fontFamily: 'poppins', fontSize: 'xx-Large', fontWeight: 'bolder' }} data-aos='zoom-in' > AjePer Values </span>
           {valuesData.map((props,i) => {
             return(
-              <div className='values-card' key={i} >
+              <div className='values-card' key={i}  >
               <div className='values-icon'
               style={{color: `${props.color}`, backgroundColor:`${props.bgColor}`}}
-              >
+              data-aos='fade-right' >
                 {props.icon}
               </div>
 
-               <div className='text'>
-                <h3>{props.title}</h3>
-                <p>{props.text}</p>
+               <div className='text'  >
+                <h3 data-aos='fade-right' >{props.title}</h3>
+                <p data-aos='fade-right'>{props.text}</p>
                </div>
               </div>
             )
           })}
 
       </div>
-      <div className='Leaving-Right-Side'>
-
+      <div className='right-side' data-aos='zoom-in' >
+        <img className='violet-bg' src={Background12} alt='Background12'data-aos='fade-left' />
+        <img className='car-img' src={Car} alt='Car' data-aos='fade-right'/>
       </div>
     </div>
   );

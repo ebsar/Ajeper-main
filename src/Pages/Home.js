@@ -8,7 +8,7 @@ import LastPage from "./LastPage";
 import Leaving from "./Leaving";
 import Whoweare from "./Whoweare";
 import Loading from "./Loading";
-import ReactSelect from './React-Select';
+import ReactSelect from './ReactSelect';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [loadedMeetups, setLoadedMeetups] = useState([]);

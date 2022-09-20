@@ -61,7 +61,7 @@ const ItemRight = styled(Item)`
 const Loading = ({ style = commonStyle, color, speed, size }) => {
   return (
     <LoadingContainer style={style} size={size}>
-      <ItemLeft color={color} speed={speed} size={size} />
+      <ItemLeft color='{color}' speed={speed} size={size} />
       <Item color={color} size={size} />
       <ItemRight color={color} speed={speed} size={size} />
     </LoadingContainer>
