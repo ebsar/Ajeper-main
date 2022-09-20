@@ -1,0 +1,64 @@
+
+.navbar{
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;
+    margin: 0;
+  }.Icon-Section{ 
+    display: flex;
+    gap: 10%;
+  }.Icon-Section{
+    display: flex;
+    align-items: center;
+  }.Button-Section{
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+    gap: 5%;
+    flex: 2;
+  }.rotated {
+    transform: rotate(180deg);
+    transition: 0.3s ease-in-out;
+  }.rotate {
+    transition: 0.3s ease-in-out;
+  }.navbar-colorChange{
+    background-color: white;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+  }.text3{
+    color: white;
+  }.Navbar-text3{
+    color: black;
+  }.navbar-colorChange{
+
+    position: fixed;
+    top:0;
+    padding: 1rem;
+  }
+  @media (max-width: 1066px ){
+    .navigation-bar{
+      display: none;
+    }.Button-Section{
+      display: none;
+    }
+
+  }
+  @media (min-width: 1066px ){
+    .toggle-container1{
+      display: none;
+    }
+  }.toggle-container1{margin-right: 30px;}

@@ -1,0 +1,198 @@
+.Features-Icon-Text{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    @media(max-width: 1198px){
+        width: 100%;
+        gap: 20px;
+        
+    }
+}.Features-first-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 6rem;
+    width: 50% !important;
+    font-family: "poppins";
+    @media(max-width: 800px){
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-left: 25%;
+        text-align: center;
+        width: 100%;
+    }
+}.Features-Title{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+     small {
+        font-size: small;
+    } span {
+        font-size: xx-large;
+        font-weight: bolder;
+    } p{
+        font-size: small;
+    }
+}.Features-Learn-More{
+    a {
+        color: white;
+        font-family: 'poppins';
+        text-decoration: none;
+        font-size: small;
+        margin-top: 3rem;
+    background-color: #514BC3;
+    display: flex;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 100vw;
+    align-items: center;
+    justify-content: center;
+    } 
+    @media(max-width: 800px){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}.Features-Icon-Text-Text-1{
+    display: flex;
+    gap: 10px;
+    @media(max-width: 800px){
+        flex-direction:column
+        
+    }
+}.Features-Icon-Text-Text{
+    display: flex;
+    gap: 10px;
+    @media(max-width: 800px){
+        flex-direction:column
+    }
+}
+@media (max-width: 800px) {
+    .Features{
+        display: flex;
+        
+        flex-direction: column;
+    }
+}.Features-Circle-Text{
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    @media (max-width:800px) {
+        margin-top: 50px;
+        width: 100%;
+        height: 550px;
+    }
+    .Agentcopy-image{
+        position: absolute;
+        bottom: 96%;
+        right: 40%;
+    }.sos-image{
+        position: absolute;
+        right: 40%;
+        top: 96%;
+    }.Features-Group2Copy{
+        position: absolute;
+        left: 96%;
+        bottom: 40%;
+    }.Features-Grouptouch{
+        position: absolute;
+        right: 96%;
+
+    }.Features-Group5{
+        position: absolute;
+        right: 66%;
+        top: 91%;
+    }.Features-GroupAjeper {
+        position: absolute;
+        left: 66%;
+        bottom: 91%;
+    }
+}.Features-Features{
+    display: flex;
+    @media (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+    }
+}.Features-Circle-1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F1E1F4;
+    width: 80% ;
+    border-radius: 50%;
+    height: 90% ;
+    @media (max-width:800px) {
+        width: 70%;
+        height: 70%;
+    }
+    
+}.Features-nountracker618738{
+    position: absolute;
+    bottom: 70%;
+    right: 88%;
+}
+.Features-Circle-2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E3C2E9;
+    width: 70% ;
+    border-radius: 60%;
+    height: 80% ;
+    @media (max-width:800px) {
+        width: 60%;
+        height: 60%;
+    }
+}.Features-Circle-3{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #BA68C8;
+    width: 60% ;
+    border-radius: 60%;
+    height: 70% ;
+    @media (max-width:800px) {
+        width: 50%;
+        height: 50%;
+    }
+}.Features-Circle-4{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #BA68C8;
+    width: 50% ;
+    height: 60% ;
+    border-radius: 60% ;
+    @media (max-width:800px) {
+        width: 40%;
+        height: 40%;
+    }
+}.Features-Text-1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    span {
+        font-family: 'poppins';
+     font-weight: bolder;
+     font-size: x-large;
+    }
+}
+@media (max-width:800px) {
+    .Features-Circle-Text img{
+    width: 25px;
+    height: 25px;
+}
+}

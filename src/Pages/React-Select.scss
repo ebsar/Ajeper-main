@@ -1,0 +1,55 @@
+@import "react-datepicker/dist/react-datepicker.css";
+
+.React-Select-First-Container{
+    display: flex;
+}.React-Select-Second-Contaienr{
+    margin: 90px;
+    border-radius: 100vw;
+    flex-wrap: wrap;
+    background-color: #F2F7FF;
+    display: flex;
+    border: 1px solid #d3d3d3;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    @media(max-width: 1198px){
+        margin: 60px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        
+    }
+}.First-React-Select, .Second-React-Select, .Fourth-React-Select, .Third-Date-Picker{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #d3d3d3;
+    @media (max-width:1198px) {
+        border-right: none;
+
+    }
+}.Third-Date-Picker input{
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    height: 30px;
+}.React-Select-Link{
+    display: flex;
+    a {
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        height: 60px;
+        width: 150px;
+        border-radius: 30px;
+        
+        background-color: #514BC3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
