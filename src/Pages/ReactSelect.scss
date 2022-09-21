@@ -3,7 +3,7 @@
 .React-Select-First-Container{
     display: flex;
 }.React-Select-Second-Contaienr{
-    padding: 30px;
+    margin: 5%;
     border-radius: 100vw;
     flex-wrap: wrap;
     background-color: #F2F7FF;
@@ -22,7 +22,7 @@
         align-items: center;
         justify-content: center;
         gap: 30px;
-        
+        padding: 10%;
     }
 }.First-React-Select, .Second-React-Select, .Fourth-React-Select, .Third-Date-Picker{
     display: flex;
