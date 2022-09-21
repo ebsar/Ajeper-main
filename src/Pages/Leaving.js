@@ -86,38 +86,3 @@ export default Leaving;
 
 
 
-
-{/* <div className="Leaving">
-      <div className='Leaving-Text-Container'>
-      <div className='left-side'data-aos='fade-right' >
-
-        <small style={{ fontFamily: 'poppins', fontSize: 'small' }} >WHY SHOULD I CARPOOL?</small>
-          <span style={{ fontFamily: 'poppins', fontSize: 'xx-Large', fontWeight: 'bolder' }} > AjePer Values </span>
-
-          {valuesData.map((props,i) => {
-            return(
-              <div className='values-card' key={i} >
-              <div className='values-icon'
-              style={{color: `${props.color}`, backgroundColor:`${props.bgColor}`}}
-              >
-                {props.icon}
-              </div>
-
-               <div className='text'>
-                <h3>{props.title}</h3>
-                <p>{props.text}</p>
-               </div>
-              </div>
-            )
-          })}
-      </div>
-      <div className='right-side' data-aos='zoom-in' >
-        <img className='violet-bg' src={Background12}/>
-        <img className='car-img' src={Car} />
-      </div>
-
-      </div>
-
-
-
-    </div> */}

@@ -21,11 +21,11 @@ function Footer() {
                 </div>
             </div>
             <div className='Footer-Right-Side' >
-            <img className='Footer-Group16' src={Group16} alt='Group16' />
-                    <img className='Footer-Group15' src={Group15} alt='Group15' />
-                    <img className='Footer-Group14' src={Group14} alt='Group14' />
-                    <img className='Footer-Group13' src={Group13} alt='Group13' />
-                    <img className='Footer-Group12' src={Group12} alt='Group12' />
+            <img className='Footer-Group16' src={Group16} alt='Group16' data-aos='zoom-in' />
+                    <img className='Footer-Group15' src={Group15} alt='Group15' data-aos='zoom-in' />
+                    <img className='Footer-Group14' src={Group14} alt='Group14' data-aos='zoom-in' />
+                    <img className='Footer-Group13' src={Group13} alt='Group13' data-aos='zoom-in' />
+                    <img className='Footer-Group12' src={Group12} alt='Group12' data-aos='zoom-in' />
                 <img className='Footer-Background-Img' src={Purplebackground} alt='purple' data-aos='fade-left' />
                 <img className='Footer-Car-Img' src={Group177} alt='Group117' data-aos='zoom-in' /> 
                 

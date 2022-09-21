@@ -1,6 +1,9 @@
+
 .Footer-first-container{
+    width: 100% !important;
     background-color: #F2F7FF;
     display:flex;
+    overflow: hidden;
     @media (max-width: 800px) {
         width: 100%;
             display: flex;
@@ -13,10 +16,11 @@
     flex-direction:column ;
     gap: 20px;
     @media ( max-width:800px) {
+        padding: 0;
         padding-top: 30%;
         width: 100%;
-    display: flex;
-    flex-direction:column ;
+        display: flex;
+        flex-direction:column ;
     gap: 20px;
     }
     small{
@@ -74,21 +78,25 @@
        display: flex;
        position: relative;
 }
-    .Footer-Backgorund-Image{
-        width: 100%;
-    
-    position: absolute;
-    z-index: 1;
+    .Footer-Background-Img{
+        width: 700px;
+        height: 1000px;
         @media (max-width: 800px) {
-            position:absolute;
-           width: 150px;
-           height: 150px;
+            
+           width: 260px;
+           height: 450px;
     }
     }.Footer-Car-Img{
         height: 60%;
         width: 80%;
         position: absolute;
         right: 20%;
+        @media (max-width:800px) {
+            position: absolute;
+            left: 20%;
+            width: 50%;
+            height:50%;
+        }
         
 
     }
@@ -96,23 +104,64 @@
     position: absolute;
     left: 85%;
     top: 80%;
+    background-image: url('./AjeperLogo/Group7.png');
+    background-size: contain;
+    @media (max-width:800px) {
+        position: absolute;
+        left: 80%;
+        top: 78%;
+        z-index: 3;
+    }
 } .Footer-Group15{
     position: absolute;
     top: 91%;
     right: 80%;
+    @media (max-width:800px) {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 95%;
+        right: 70%;
+        z-index: 5;
+    }
 }.Footer-Group14{
     position: absolute;
     bottom: 20%;
     right: 94%;
+    @media (max-width:800px) {
+        width: 55px ;
+        height: 55px;
+        position: absolute;
+    bottom: 28%;
+    right: 82%;
+    }
   
 }.Footer-Group13{
     position: absolute;
     bottom: 85%;
     right: 62%;
+    @media (max-width:800px) {
+        width: 50px;
+        height: 50px;
+        bottom: 80%;
+        right: 55%;
+        z-index: 1;
+    }
 }.Footer-Group12 {
     position: absolute;
     right: 90%;
     bottom: 75%;
+    animation: Rotate 5s ;
+    @media (max-width:800px) {
+        width: 60px;
+        height: 60px;
+        right: 80%;
+        bottom: 70%;
+    }
+}
+@keyframes Rotate {
+    from {rotate: 359deg;}
+    to {rotate: 0deg;}
 }
 
 
