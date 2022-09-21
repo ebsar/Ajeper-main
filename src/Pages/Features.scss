@@ -1,12 +1,14 @@
 .Features-Icon-Text{
     width: 50%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 10%;
     overflow: hidden;
     @media(max-width: 1198px){
         width: 100%;
-        gap: 20px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
         
     }
 }.Features-first-Container{
@@ -14,16 +16,16 @@
     flex-direction: column;
     gap: 40px;
     padding: 6rem;
-    width: 50% !important;
+    width: 50% ;
     font-family: "poppins";
     @media(max-width: 800px){
-        margin-top: 50px;
+        margin-top: 20%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         padding: 0;
-        margin-left: 25%;
+        justify-content: center;
         text-align: center;
-        width: 100%;
     }
 }.Features-Title{
     display: flex;

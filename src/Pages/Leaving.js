@@ -22,7 +22,8 @@ const valuesData = [
     text:"Booking a ride has never been easier! Thanks to our simple app powered by great technology, you can book a ride close to you in just minutes.",
     icon:<ImMobile2/>,
     color:"#FFB300",
-    bgColor:"#FDD677"
+    bgColor:"#FDD677",
+    fontFamily:'poppins'
   },
 
   {
@@ -44,7 +45,7 @@ function Leaving() {
             return(
               <div className='values-card' key={i}  >
               <div className='values-icon'
-              style={{color: `${props.color}`, backgroundColor:`${props.bgColor}`}}
+              style={{color: `${props.color}`, backgroundColor:`${props.bgColor}`, fontFamily:`${props.fontFamily}`}}
               data-aos='fade-right' >
                 {props.icon}
               </div>
