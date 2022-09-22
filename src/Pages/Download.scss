@@ -16,17 +16,18 @@
         flex-direction: column;
         width: 50%;
         @media(max-width: 800px){
-            
+            padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
-            width: 80%;
+            width: 100%;
             flex-wrap: wrap;
             
         }
     }.download-Text-Contaienr{
+        padding-top: 40px;
         display: flex;
         flex-direction: column;
         color: white;
@@ -35,7 +36,11 @@
             font-family: 'poppins';
             font-weight: bolder;
             font-size: xx-large;
-            
+            width: 100%;
+            @media (max-width:800px) {
+                font-weight: bold;
+                font-size: x-large;
+            }
         }small{
             font-family: 'poppins';
             

@@ -11,9 +11,9 @@
     }
 }.Last-Page-Component{
     display: flex;
-    width: 80%;
+    width: 90%;
     gap: 15%;
-    align-items: center;
+    margin-top: 120px;
     a{
         color: white;
         font-family: 'poppins';
@@ -22,6 +22,7 @@
     @media (max-width:800px) {
         margin-top: 50px;
         display: flex;
+        align-items: center;
         flex-direction: column;
         width: 100%;
     }
@@ -43,6 +44,7 @@
     }
 }.Last-page-Icon{
     display: flex;
+    gap: 20px;
     align-items: center;
 }
 @media (max-width:800px) {
@@ -50,12 +52,51 @@
         display: none;
     }
 }.Company-Component{
-    display: flex;
     @media (min-width:800px) {
         display: flex;
         flex-direction: column;
-        .Icon-Company{
+        .Icon-Company {
             display: none;
         }
+    }
+}.Leaving-Page-Second-Container{
+    display: flex;
+    gap: 20px;
+    font-size: x-large;
+}
+@media (min-width:800px){
+.Icon-Driver{
+    display: none;
+}.Icon-Product{
+    display: none;
+}.Icon-Profile{
+    display: none;
+}
+}.Puting-dispplay-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}.Last-Page-Copyright{
+    margin-top: 10%;
+    font-family: 'poppins';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width:800px) {
+        display: flex;
+        flex-direction: column;
+    }
+}.Last-Page-Right-Page{
+    display: flex;
+    font-family: 'poppins';
+    margin-top: 20px;
+    gap: 20px;
+    a{
+        text-decoration: none;
+        
+        gap: 20px;
+        border-right: 1px solid white;
+        color: white;
     }
 }

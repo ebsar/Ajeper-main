@@ -24,14 +24,17 @@ const Testimonials = () => {
     };
 
     return (
-        <div className='academy-testimonials'>
+        <div className='SLIDER-FIELD' >
+            <div className='slider-title'>
+                <small>USERS SHARE THEIR EXPERIENCE</small>
+                <span>A community full of stories</span>
+            </div>
 <Carousel className="slider" 
                 breakPoints={breakPoints} 
                 ref={carouselRef}
                 onPrevStart={onPrevStart}
                 onNextStart={onNextStart}
                 disableArrowsOnEnd={false}
-                style={{height:'600px'}}
             >
 {/* <div className="profile" style={{content: `url(${props.profile})`}}></div> */}
                 {Data.map((props) => {
@@ -56,7 +59,7 @@ const Testimonials = () => {
                                 <span>{props.comment}</span>
                             </div>
                             <div className='Slider-Name-Container'>
-                                <span>{props.name}</span>
+                                <span style={{color:'#514BC3'}}>{props.name}</span>
                                 <span>{props.user}</span>
                             </div>
                         </div>

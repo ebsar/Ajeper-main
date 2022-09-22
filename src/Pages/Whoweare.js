@@ -18,7 +18,7 @@ function Whoweare (){
 
                 <div className="Whoweare-button-section-2" data-aos='fade-left'>
                     <Link to='/' className="Whoweare-Button-1" > About Us </Link>
-                    <Link to='/' style={{backgroundColor:'#DCDBF3', borderRadius:'70%'}} className="Video" > <BsFillPlayFill style={{width:'30px', height:'40px', color:'#514BC3'}}/> </Link>
+                    <Link to='/' style={{backgroundColor:'#DCDBF3', borderRadius:'70%'}} className="Video" > <BsFillPlayFill style={{position:'absolute',right:'3.5px', width:'40px', height:'40px', color:'#514BC3'}}/> </Link>
                     <small>See how it works</small>
                 </div>
             </div>

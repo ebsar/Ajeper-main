@@ -15,6 +15,18 @@ function LastPage() {
   const onMobile = () => {
     setMobileSize((prev) => !prev);
   }
+  const [MobileSize1, setMobileSize1] = useState(false);
+  const onMobile1 = () => {
+    setMobileSize1((prev) => !prev);
+  }
+  const [MobileSize2, setMobileSize2] = useState(false);
+  const onMobile2 = () => {
+    setMobileSize2((prev) => !prev);
+  }
+  const [MobileSize3, setMobileSize3] = useState(false);
+  const onMobile3 = () => {
+    setMobileSize3((prev) => !prev);
+  }
   const Company = [
     {
       text: "About us",
@@ -134,9 +146,11 @@ function LastPage() {
         <div className="Last-Page-Component">
           <div className="Last-Page-Company">
             <div className="Company-Component">
-            <Link to="/">Company</Link>
+              <div className="Puting-dispplay-flex">
+            <Link to="/" style={{fontSize:'large', fontWeight:'bolder'}}>Company</Link>
             <div className="Icon-Company">
             <BsChevronDown onClick={onMobile} color="white"/>
+            </div>
             </div>
             {
                 MobileSize && 
@@ -163,7 +177,24 @@ function LastPage() {
           </div>
           <div className="Last-Page-Product">
             <div className="Last-Page-Product1">
-            <Link to="/">Products</Link>
+              <div className="Puting-dispplay-flex" >
+            <Link to="/" style={{fontSize:'large', fontWeight:'bolder'}}>Products</Link>
+            <div className="Icon-Product">
+            <BsChevronDown onClick={onMobile1} color="white"/>
+            </div>
+            </div>
+            {
+                MobileSize1 && 
+                <div> 
+                   {Products.map((props2) => {
+              return (
+                <div className="Lst-Page-Props">
+                  <Link>{props2.text}</Link>
+                </div>
+              );
+            })} 
+                </div>
+            }
             </div>
             <div className="Last-Page-Products">
             {Products.map((props2) => {
@@ -176,7 +207,24 @@ function LastPage() {
             </div>
           </div>
           <div className="Last-Page-Driver">
-            <Link to="/">Driver</Link>
+            <div className="Puting-dispplay-flex" >
+            <Link style={{fontSize:'large', fontWeight:'bolder'}} to="/">Driver</Link>
+            <div className="Icon-Driver">
+            <BsChevronDown onClick={onMobile2} color="white"/>
+            </div>
+            </div>
+            {
+                MobileSize2 && 
+                <div> 
+                   {Driver.map((props3) => {
+              return (
+                <div className="Lst-Page-Props">
+                  <Link>{props3.text}</Link>
+                </div>
+              );
+            })} 
+                </div>
+            }
             <div className="Last-Page-Driver-Component">
             {Driver.map((props3) => {
               return (
@@ -188,7 +236,24 @@ function LastPage() {
             </div>
           </div>
           <div className="Last-Page-Profile">
-            <Link to="/">Profile</Link>
+            <div className="Puting-dispplay-flex">
+            <Link to="/" style={{fontSize:'large', fontWeight:'bolder'}}>Profile</Link>
+            <div className="Icon-Profile">
+            <BsChevronDown onClick={onMobile3} color="white"/>
+            </div>
+          </div>
+            {
+                MobileSize3 && 
+                <div> 
+                   {Profile.map((props4) => {
+              return (
+                <div className="Lst-Page-Props">
+                  <Link>{props4.text}</Link>
+                </div>
+              );
+            })} 
+                </div>
+            }
             <div className="Last-Page-Profile-Container">
             {Profile.map((props4, i) => {
               return (
@@ -202,7 +267,16 @@ function LastPage() {
         </div>
       </div>
       <div className="Last-Page-Copyright">
+        <div className="Last-Page-Left-Side">
         <AiOutlineCopyrightCircle color="white" />
+        <span > AjePer. All rights reserved</span>
+        </div>
+        <div className="Last-Page-Right-Page">
+            <Link>Accessivility</Link>
+            <Link>Privacy</Link>
+            <Link>Copyright</Link>
+            <Link>Terms of Use</Link>
+        </div>
       </div>
     </div>
   );
