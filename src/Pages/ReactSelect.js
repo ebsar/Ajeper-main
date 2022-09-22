@@ -46,7 +46,7 @@ function ReactSelect () {
                 </div>
                 <div className="Third-Date-Picker">
                     <MdDateRange color="grey"/>
-                <DatePicker selected={startDate} onChange={(date:Date) => setStartDate(date)} placeholder={'Date & Time'} />
+                <DatePicker selected={startDate} onChange={(date:Date) => setStartDate(date)} />
                 </div>
                 <div className="Fourth-React-Select">
                     <BsFillPersonFill color="grey"/>

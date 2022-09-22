@@ -14,7 +14,8 @@ const valuesData = [
     text:"We take the time to get to know each of our members and bus partners. We check reviews, profiles and IDs, so you know who you’re travelling with and can book your ride at ease on our secure platform.",
     icon:<VscWorkspaceTrusted/>,
     color:"#D60665",
-    bgColor:"#F4BFD7"
+    bgColor:"#F4BFD7",
+    fontFamily:'poppins'
   },
 
   {
@@ -31,7 +32,8 @@ const valuesData = [
     text:"No matter where you’re going, by bus or carpool, find the perfect ride from our wide range of destinations and routes at low prices.",
     icon:<AiFillTags/>,
     color:"#0D13D7",
-    bgColor:"#C1C2F4"
+    bgColor:"#C1C2F4",
+    fontFamily:'poppins'
   }
 ]
 
@@ -45,14 +47,14 @@ function Leaving() {
             return(
               <div className='values-card' key={i}  >
               <div className='values-icon'
-              style={{color: `${props.color}`, backgroundColor:`${props.bgColor}`, fontFamily:`${props.fontFamily}`}}
+              style={{color: `${props.color}`, backgroundColor:`${props.bgColor}`}}
               data-aos='fade-right' >
                 {props.icon}
               </div>
 
                <div className='text'  >
-                <h3 data-aos='fade-right' >{props.title}</h3>
-                <p data-aos='fade-right'>{props.text}</p>
+                <h3 data-aos='fade-right' style={{ fontFamily:`${props.fontFamily}` }} >{props.title}</h3>
+                <p data-aos='fade-right' style={{ fontFamily:`${props.fontFamily}` }}>{props.text}</p>
                </div>
               </div>
             )

@@ -9,6 +9,7 @@ import Leaving from "./Leaving";
 import Whoweare from "./Whoweare";
 import Loading from "./Loading";
 import ReactSelect from './ReactSelect';
+import Slider from './SliderFolder/Slider';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [loadedMeetups, setLoadedMeetups] = useState([]);
@@ -45,13 +46,14 @@ function App() {
     );
   }
   return (
-    <div meetups={loadedMeetups} >
+    <div className="Home-Page-First" meetups={loadedMeetups} >
       <NavBar/>
      <Footer/>
      <ReactSelect/>
       <Leaving/>
       <Whoweare/>
       <Features/>
+      <Slider/>
       <Download/>
       <LastPage/>
     </div>

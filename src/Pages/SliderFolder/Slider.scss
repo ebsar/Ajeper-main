@@ -1,0 +1,32 @@
+.Slider-First-Container{
+    display: flex;
+    padding: 30px;
+    gap: 40px;
+    flex-direction: column;
+    width: 450px;
+    height:300px;
+    box-shadow: 5px 5px rgba($color: grey, $alpha: 0.05);
+    margin-bottom: 20px;
+    @media (max-width:800px) {
+        width: 200px;
+        height: 200px;
+        gap: 5px;
+        font-size: small;
+        font-family: 'poppins';
+    }
+    :hover{
+        border: 1px solid red;
+    }
+}.Slide-Profile-Image{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}.Slide-Rating-Profile{
+    display: flex;
+    color: #FFAA00;
+}.sc-eCYdqJ eLPooy rec rec-carousel{
+    height: 400px;
+}.Slider-Name-Container{
+    display: flex;
+    flex-direction: column;
+}
